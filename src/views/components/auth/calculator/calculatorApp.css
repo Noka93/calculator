@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Space+Grotesk&display=swap");
+
+* {
+	font-family: "Space Grotesk", sans-serif;
+}
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: white;
+}
+
+.calculator {
+	padding: 30px;
+	border: 10px solid rgb(197, 194, 194);
+	box-shadow: 20px;
+	border-radius: 35px;
+	background-color: rgb(71, 51, 51);
+}
+
+form input {
+	width: 70px;
+	height: 100px;
+	font-size: 35px;
+	margin: 10px;
+	color: rgb(75, 69, 69);
+	cursor: pointer;
+}
+
+.btn-row {
+	border: 2px solid;
+	display: flex;
+	gap: 6px;
+	flex-wrap: wrap;
+	outline: 0px;
+	color: rgb(75, 69, 69);
+	border-radius: 50%;
+	cursor: pointer;
+	margin: 3px;
+}
+
+.btn {
+	background-color: #f5f5f5;
+	width: 100px;
+	padding: 5px;
+	border-radius: 5px;
+}
+.btn input {
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+	box-shadow: -3px -3px 5px #ffffff, 3px 3px 15px #000000;
+	background-color: #fe0000;
+	color: white;
+	font-size: 35px;
+	border: 3px solid #f5f5f5;
+}
+
+.btn-2 {
+	background-color: gray;
+	width: 100px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.btn-2 input {
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+	box-shadow: -3px -3px 5px #c5c0c0, 3px 3px 15px #000000;;
+	border: none;
+	background-color: grey;
+	color: white;
+	font-size: 35px;
+	border: 4px solid grey;
+}
+
+.btn-3 {
+	background-color: #F5F5F5;
+	width: 100px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.btn-3 input {
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+	box-shadow: -3px -3px 5px #f5f5f5, 3px 3px 15px rgb(100, 99, 99);
+	border: none;
+	background-color: #f5f5f5;
+	color: rgb(73, 70, 70);
+	font-size: 35px;
+	border: 5px solid #f5f5f5;
+}
+
+.btn-4 {
+	background-color: #fe0000;
+	width: 380px;
+	padding: 5px;
+	border-radius: 6px;
+}
+
+.btn-4 input {
+	border-radius: 100px;
+	height: 65px;
+	width: 350px;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+	border: none;
+	background-color: #fe0000;
+	color: white;
+	font-size: 40px;
+	margin-top: 19px;
+	margin-left: 15px;
+
+}
+.btn-5 {
+	background-color: #f5f5f5;
+	width: 168px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.btn-5 input {
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+	border: none;
+	background-color: #f5f5f5;
+	color: rgb(73, 70, 70);
+	font-size: 35px;
+	margin-left: 80px;
+	border: 5px solid #f5f5f5;
+}
+
+form .display {
+	display: flex;
+	justify-content: flex-end;
+	margin: 10px 0px 20px 0px;
+	color: white;
+}
+
+form .display input {
+	text-align: right;
+	flex: 2;
+	border-style: none;
+	font-size: 70px;
+	padding: 10px 15px;
+	background-color: rgb(61, 59, 59);
+	color: white;
+}
